@@ -1,11 +1,59 @@
-h1{
+h{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 70px;
+font-size: 50px;
 color: whitesmoke;
 }
 body{
-background-image: url(https://media.metrolatam.com/2019/04/29/gamejogo-cd9f54d48fcb15fb1d930248a5f6cb49-1200x800.jpg);
-background-size: cover;
+    background-image: url(fotodefundoff.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:yellow;
+    margin-top: 0%;
+    
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    padding-bottom: 20px; 
+    padding-top: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 32px; 
+    
 
 }
+nav u li a:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    border-bottom: black solid 2px
+}
+@font-face {
+    font-family: 'ff';
+    src: url('UrbanJungleDEMO.otf');
+}
+.titulo{
+
+    
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    font-family: ff;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-shadow: 1px 1px 1px whitesmoke,-1px 1px 1px whitesmoke,1px -1px 1px whitesmoke,-1px -1px 1px whitesmoke
+}
+
+
