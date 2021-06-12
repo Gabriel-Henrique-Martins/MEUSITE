@@ -10,6 +10,14 @@ body{
     margin: 0;
     padding: 0;
 }
+main{
+    background-color: rgb(122, 122, 122);
+    margin: 5%;
+}
+
+
+
+
 header{
     background-color:yellow;
     margin-top: 0%;
@@ -43,6 +51,10 @@ nav u li a:hover{
     font-family: 'ff';
     src: url('UrbanJungleDEMO.otf');
 }
+@font-face {
+    font-family: 'rubik';
+    src: url('Rubik-Bold.ttf');
+}
 .titulo{
 
     
@@ -55,5 +67,21 @@ nav u li a:hover{
     padding-bottom: 25px;
     text-shadow: 1px 1px 1px whitesmoke,-1px 1px 1px whitesmoke,1px -1px 1px whitesmoke,-1px -1px 1px whitesmoke
 }
-
+.img{
+    padding-left: 350px;
+    padding-bottom: 15px;
+    
+}
+#subtitulo{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+}
+.paragrafo{
+    font-size: 20px;
+    font-family: rubik;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
 
