@@ -1,8 +1,10 @@
-h{
+.h1{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 50px;
-color: whitesmoke;
+padding-top: 15px;
+color: rgb(196, 196, 196);
+font-size: 28px;
+text-shadow: 1px 1px 1px rgb(0, 0, 0),-1px 1px 1px rgb(0, 0, 0),1px -1px 1px rgb(0, 0, 0),-1px -1px 1px rgb(0, 0, 0)
 }
 body{
     background-image: url(fotodefundoff.jpg);
@@ -11,9 +13,11 @@ body{
     padding: 0;
     padding-bottom: 0;
 }
-main{
+article{
     background-color: rgb(122, 122, 122);
     margin: 5%;
+    padding-bottom: 15px;
+    border: solid 7px red;
 }
 
 
@@ -74,10 +78,12 @@ nav ul li a{
     
     margin: 15px;
     float: left;
-    
+    margin-top: 30px;
     border: solid 10px yellow;
 }
 .subtituloff{
+    margin: 5%;
+    background-color: yellow;
     text-align: center;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -93,6 +99,7 @@ nav ul li a{
     padding-left: 35px;
     text-align: justify;
     padding-right: 15px;
+    padding-top: 30px;
 }
 .subtitulo{
     
@@ -122,7 +129,7 @@ footer{
     color: black;
     
 }
-article{
+adrticle{
     padding-bottom: 15px;
 }
 .Img{
@@ -130,7 +137,8 @@ article{
     margin-left: 65px;
     border: solid 10px yellow;
     margin-right: 35px;
-
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 .inf{
     font-family: 'Times New Roman', Times, serif;
@@ -145,6 +153,7 @@ article{
     padding-right: 15px;
     padding-left: 35px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
 }
 .lista{
     font-size: 20px;
@@ -161,3 +170,49 @@ article{
     font-size: 30px;
     padding-top: 65px;
 }
+.pesquisa{
+    width: 400px;
+    height: 40px;
+padding-left: 15px;
+}
+#texto{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    float: left;
+}
+.lupa{
+    width: 30px;
+    height: 30px;
+    background-color: yellowgreen;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#texto:focus{
+    border: solid 2px yellowgreen;
+}
+#BoasVindas{
+    font-size: 30px;
+    font-family: rubik;
+    color: whitesmoke;
+    margin: 5%;
+}
+#nome{
+    margin-left: 5%;
+    width: 150px;
+    height: 20px;
+    border: solid 3px thistle;
+    background-color: rgb(255, 255, 255);
+}
+#idade{
+    width: 150px;
+    height: 20px;
+    border: solid 3px thistle;
+}
+#botao{
+    width: 40px;
+    height: 28px;
+    background-color: thistle;
+}
+
+
