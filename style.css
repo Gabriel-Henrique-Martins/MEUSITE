@@ -7,17 +7,17 @@ font-size: 28px;
 text-shadow: 1px 1px 1px rgb(0, 0, 0),-1px 1px 1px rgb(0, 0, 0),1px -1px 1px rgb(0, 0, 0),-1px -1px 1px rgb(0, 0, 0)
 }
 body{
-    background-image: url(fotodefundoff.jpg);
+    background-color: rgb(57, 53, 75);
     background-size: cover;
     margin: 0;
     padding: 0;
     padding-bottom: 0;
 }
 article{
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(112, 113, 114);
     margin: 5%;
     padding-bottom: 15px;
-    border: solid 7px red;
+    border: solid 7px rgb(255, 255, 255);
 }
 .menu ul ul{
     display: none;
@@ -35,10 +35,10 @@ article{
     position: relative;
 }
 .menu ul ul li{
-    background-color: yellow;
+    background-color: rgb(122, 122, 122);
 }
 .menu ul ul li:hover{
-    background-color: rgb(255, 235, 52);
+    background-color: rgb(53, 53, 53);
 }
 .menu ul li:hover ul{
     display: block;
@@ -50,7 +50,7 @@ article{
     margin-top: 0px;
 }
 .sub li{
-    background-color:rgb(255, 235, 52) ;
+    background-color:rgb(121, 121, 121) ;
 }
 .link{
     margin-left: 7px;
@@ -58,8 +58,10 @@ article{
 }
 
 header{
-    background-color:yellow;
+    background-image: url(foto2.jpg);
     margin-top: 0%;
+    background-size: cover;
+
     
 }
 .menu ul{
@@ -76,7 +78,7 @@ header{
 .menu ul li a{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 200px;
     height: 40px; 
     font-size: 32px;
@@ -97,7 +99,7 @@ li{
 .link:hover{
     cursor: pointer;
     font-size: 40px;
-    background-color: rgb(255, 235, 52);
+    background-color: rgb(53, 53, 53);
     transition: background-color  ease ;
 }
 
@@ -129,14 +131,14 @@ li{
     border: solid 10px yellow;
 }
 .subtituloff{
-    margin: 5%;
-    background-color: yellow;
+    
+    
     text-align: center;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 15px;
-    border: solid 10px yellow;
-    padding-bottom: 15px;
+    
+    padding-bottom: 0;
     text-shadow: 1px 1px 1px whitesmoke,-1px 1px 1px whitesmoke,1px -1px 1px whitesmoke,-1px -1px 1px whitesmoke
 }
 .paragrafo{
@@ -158,9 +160,14 @@ li{
     margin: 28px;
     text-shadow: 1px 1px 1px whitesmoke,-1px 1px 1px whitesmoke,1px -1px 1px whitesmoke,-1px -1px 1px whitesmoke
 }
+#footer{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0),-1px 1px 1px rgb(0, 0, 0),1px -1px 1px rgb(0, 0, 0),-1px -1px 1px rgb(0, 0, 0)
+}
 footer{
-    background-color: yellow;
+    background-image: url(foto2.jpg);
     text-align: center;
+    background-size: cover;
     padding: 5px;
     margin: 0%
     
@@ -171,6 +178,7 @@ footer{
     text-decoration: none;
     
 }
+
 footer h2{
     font-family: ff;
     font-size: 38px;
@@ -181,11 +189,11 @@ footer h2{
 footer a{
     font-family: rubik;
     
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #voltar{
     
-    color: black;
+    color: rgb(255, 255, 255);
     
 }
 adrticle{
@@ -213,6 +221,8 @@ adrticle{
     padding-left: 35px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0),-1px 1px 1px rgb(0, 0, 0),1px -1px 1px rgb(0, 0, 0),-1px -1px 1px rgb(0, 0, 0)
 }
 .lista{
     font-size: 20px;
@@ -293,7 +303,7 @@ padding-left: 15px;
     position: relative;
 }
 #Menu4 li a{
-    color: wheat;
+    color: rgb(255, 238, 0);
     font-size: 20px;
     margin-top: 65px;
     

@@ -6,5 +6,3 @@ function mostrarBoasvindas(){
     h1.innerHTML = `Bem vindo ${nome.value} ao site Guia do Free Fire! Sua idade é ${idade.value}!`
 
 }
-
-
